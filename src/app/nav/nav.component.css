@@ -5,6 +5,9 @@
 .sidenav {
   width: 200px;
 }
+#div1{
+  position: absolute; right: 0;
+}
 
 .sidenav .mat-toolbar {
   background: inherit;

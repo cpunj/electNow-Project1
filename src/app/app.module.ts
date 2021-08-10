@@ -17,13 +17,16 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 import { VideoComponent } from './video/video.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     DashComponent,
-    VideoComponent
+    VideoComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,8 @@ import { VideoComponent } from './video/video.component';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
-    YouTubePlayerModule
+    YouTubePlayerModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

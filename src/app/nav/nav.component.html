@@ -22,9 +22,14 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>electNow</span>
+     
+      <span>ElectNow</span>
+      <div id="div1">
+      <button type="button" id= "bt2" class="btn btn-danger">Login</button>
+      <button type="button" id= "bt1" routerLink="/register" class="btn btn-success">Join Now</button></div>
     </mat-toolbar>
     <!-- Add Content Here -->
     <router-outlet></router-outlet>
+    
   </mat-sidenav-content>
 </mat-sidenav-container>
